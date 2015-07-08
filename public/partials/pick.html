@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<div class="pickInject" ng-controller="pickController">
+
+  <div class="pickSection">
+        <p> Hello {{firstName}} at {{email}}! Please pick from our products below. </p>
+  </div>
+
+        <div ng-controller='tableController'>
+            <div class="tableSearch" >    <p> Search: </p> <input type="text" ng-model="test.name" placeholder="Search by product name">
+            </div>
+
+
+            <div class="gridWrapper" ng-controller="mainController">
+                <div class="productWrapper" ng-animate="'animate'" id="coffeeProductWrapper" ng-repeat="x in products | filter:test">
+                        <div class="product name"> {{x.name}}
+                        </div>
+
+                        <div class="product image">
+                            <img id="{{x.picture}}" src="/images/{{x.picture}}.jpg" alt="{{x.name}}">
+                        </div>
+
+                        <div class = "product description" ng-controller="expandCollapseCtrl">
+                          <label ng-click="active = !active" ng-class="{'expandcollapse-heading-collapsed': active, 'expandcollapse-heading-expanded': !active}">
+                              {{x.description }}
+                        </label>
+                          </div>
+
+                        <div class="product price"> {{x.price}} </div>
+                        <div class="product pick-button">
+                            <a class="btn btn-info " role="button" ng-click="createProduct(x)">Pick this item</a>
+                        </div>
+                </div>
+              </div>
+
+
+            <div class="submit-button">
+              <a class="btn  btn-success " href="#order" role="button">Submit your order</a>
+            </div>
+    </div>
+
+</div>

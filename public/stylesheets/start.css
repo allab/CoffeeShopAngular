@@ -1,0 +1,57 @@
+
+.contactName {
+    max-width: 150px;
+  padding: 5px;
+}
+
+.contactName p, .contactName input{
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.emailAddress{
+  padding: 5px;
+}
+
+.emailAddress p, .emailAddress input{
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttonConfirm {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buttonConfirm a{
+  max-width: 150px;
+  min-width: 150px;;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-success{
+  background-color: #59A98B;
+  border: 1px solid #bcdcd0;
+}
+
+.btn-success:active:focus{
+  background-color: #59A98B;
+  border: 1px solid #bcdcd0;
+}
+
+.btn-success:hover{
+  background-color:#59A98B;
+  border: 1px solid #bcdcd0;
+}
+
+.startInject{
+
+    display: flex;
+    flex-flow: column;
+  margin: 10px;
+  margin-left: 50px;
+}

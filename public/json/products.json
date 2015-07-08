@@ -1,0 +1,32 @@
+{ "coffeeCups":[
+  {"name":"Red tumbler mug",
+    "picture":"cup1",
+    "description":" i am a long description of this adorable cup, very very very long actually that long",
+    "price": "20.00"},
+
+  {"name":"Brown mug",
+      "picture":"cup2",
+      "description":" i am a long description of that adorable cup, very very very long actually",
+      "price": "15.00"},
+
+  {"name":"Blue coffee cup",
+        "picture":"cup3",
+        "description":" i am a long description of this adorable cup, very very very long actually",
+        "price": "10.00"},
+
+        {"name":"Black tumbler",
+          "picture":"cup4",
+          "description":" i am a long description of this adorable cup, very very very long actually that long",
+          "price": "28.90"},
+
+        {"name":"Violet mug",
+            "picture":"cup5",
+            "description":" i am a long description of that adorable cup, very very very long actually",
+            "price": "11.00"},
+
+        {"name":"Grey cup",
+              "picture":"cup6",
+              "description":" i am a long description of this adorable cup, very very very long actually",
+              "price": "12.00"}
+      ]
+}

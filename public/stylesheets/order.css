@@ -1,0 +1,40 @@
+.orderInject{
+  display: flex;
+  flex-flow: column;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.orderSection{
+  padding: 10px;
+}
+
+.orderTable{
+  display: flex;
+  justify-content: flex-start;
+  min-width: 200px;
+
+}
+
+
+.oProduct{
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: normal;
+}
+
+.sum{
+  font-weight: bold;
+}
+
+.buttonConfirm a{
+  max-width: 150px;
+  min-width: 150px;;
+  display: flex;
+  justify-content: center;
+}
+
+#sumTr{
+  border-top: 1px solid black;
+}

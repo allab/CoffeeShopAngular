@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  font-family: Antic;
+  font-size: 15px;
+}
+
+
+
+.pickInject{
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+ .pickSection{
+   display: flex;
+   justify-content: center;
+
+}
+
+.productWrapper{
+    justify-content: center;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 400px;
+    border: 1px solid #d3d3d3;
+    margin: 7px;
+    -webkit-transition: all 0.1s ease-out 0s;
+  	-moz-transition: all 0.1s ease-out 0s;
+  	-o-transition: all 0.1s ease-out 0s;
+  	transition: all 0.1s ease-out 0s;
+}
+
+.productWrapper:hover {
+	opacity: 1;
+	-webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+.tableSearch{
+  display: flex;
+  justify-content:flex-end;
+  min-width: 180px;
+  align-content: center;
+  padding: 5px;
+  height: 38px;
+}
+
+.tableSearch input{
+  min-width: 180px;
+}
+
+.tableSearch p{
+  height: 28px;
+  padding: inherit;
+}
+
+.gridWrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  padding: 5px;
+}
+
+
+.submit-button{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.name{
+  font-weight: bold;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.picture{
+  display: flex;
+  flex-flow: wrap;
+  min-width: 100px;
+  max-width: 200px;
+  height: auto;
+}
+
+.description{
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+  padding: 5px;
+  border: none;
+}
+
+.price{
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+.pick-button{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.btn-info{
+  max-width: 50%;
+  background-color: #59a98b;
+  border-color: #59A98B;
+}
+
+.btn-info:active:focus{
+  max-width: 50%;
+  background-color: #3e7661;
+  border-color: #59A98B;
+}
+
+.btn-info:hover{
+  max-width: 50%;
+  background-color: #3e7661;
+  border-color: #59A98B;
+}
+
+
+
+.ng-enter, .ng-leave, .ng-hide {
+	opacity: 0;
+	height: 0px;
+}
+.ng-enter-active .ng-leave-active{
+	opacity: 1;
+}

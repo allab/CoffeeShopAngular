@@ -1,0 +1,32 @@
+<div class="orderInject" ng-controller="orderController">
+    <div class="orderSection">
+          <b> You've chosen: </b>
+             <div class="orderProductWrapper" >
+               <table class="orderTable">
+                      <tr ng-repeat="item in orderedProducts">
+                              <td>  <div class="oProduct">  {{item.productName}}
+                                    </div>
+                              </td>
+
+                                <td> <div class="oProduct"> {{item.productPrice}}
+                                     </div>
+                                <td>
+                      </tr>
+                      <tr id="sumTr">
+                                <td>   <div class= "oProduct sum">  Total sum:
+                                      </div>
+                                </td>
+
+                                <td >   <div class= "oProduct sum">  {{getTotal()}}
+                                       </div>
+                                </td>
+                    </tr>
+
+                </table>
+              </div>
+          </div>
+
+          <div class="buttonConfirm">
+              <a class="btn  btn-success" href="#" role="button"> Confirm the order </a>
+          </div>
+</div>
